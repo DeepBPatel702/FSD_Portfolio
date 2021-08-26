@@ -193,14 +193,6 @@ section.blogs button.btn.btn-secondary:hover{
 	background: var(--primary);
 }
 
-@media(max-width: 910px){
-	header #main-nav{
-		display: none;
-	}
-
-}
-
-
 
 
 

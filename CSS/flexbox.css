@@ -20,8 +20,8 @@
 	transition: all .3s ease;	
 }
 
-.btn-primary, {
-	background: var(--primary);
+.btn-primary {
+	background-color:var(--primary);
 	color: var(--dark);
 }
 
