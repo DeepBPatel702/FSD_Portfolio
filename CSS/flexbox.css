@@ -2,12 +2,18 @@
 	display: flex;
 }
 
+.branding{
+	justify-content: space-between;
+	/* border: 2px solid red; */
+	margin-right: 100rem;
+}
+
 .items-center{
 	align-items: center;
 }
 
 .justify-between{
-	justify-content: space-between;
+	justify-content: space-evenly;
 }
 
 .btn, a{

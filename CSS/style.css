@@ -24,9 +24,10 @@ header{
 }
 
 .container{
-	max-width: 1152px;
-	padding: 0 12px;
+	/* max-width: 1152px; */
+	/* padding: 0 12px; */
 	margin: 0 auto;
+	align-content: center;
 }
 
 header nav .left a{
@@ -85,7 +86,7 @@ section.about h3{
 }
 
 section.about p{
-	color: var(--ternary);
+	color: black;
 	line-height: 1.9rem;
 	font-weight: 500;
 }
@@ -141,14 +142,14 @@ section.project h3{
 
 section.project button.btn.btn-primary{
 	align-items: center;
-	margin-left: 35%;
+	margin-left: 45%;
 	margin-top: 1rem;
 	margin-right: 1rem;
 }
 
 section.project button.btn.btn-primary-1{
 	background: var(--primary);
-	color: var(--dark);
+	color: var(--dark);	
 }
 
 section.project button.btn.btn-primary-1:hover{
@@ -193,20 +194,6 @@ section.blogs button.btn.btn-secondary:hover{
 	background: var(--primary);
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.branding img{
+	height: 4rem;
+}
