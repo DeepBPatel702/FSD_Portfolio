@@ -76,11 +76,14 @@ section{
 
 section.about h1{
 	margin-bottom: 1rem;
-	font-size: 1.6rem;
+	/* font-size: 1.6rem; */
+	text-align: center;
+	font-weight: 600;
 }
 
 section.about h3{
-	font-size: 1rem;
+	/* font-size: 1rem; */
+	text-align: center;
 	margin-bottom: 1rem;
 	font-weight: 600;
 }
@@ -142,7 +145,7 @@ section.project h3{
 
 section.project button.btn.btn-primary{
 	align-items: center;
-	margin-left: 45%;
+	margin-left: 40%;
 	margin-top: 1rem;
 	margin-right: 1rem;
 }
@@ -183,7 +186,7 @@ section.blogs button.btn.btn-secondary{
 	background: var(--dark);
 	color: var(--primary);
 	align-items: center;
-	margin-left: 45%;
+	margin-left: 40%;
 	margin-top: 1rem;
 	margin-right: 1rem;
 }
@@ -194,6 +197,35 @@ section.blogs button.btn.btn-secondary:hover{
 	background: var(--primary);
 }
 
+.span{
+	margin: 1rem;
+}
+
 .branding img{
 	height: 4rem;
+}	
+
+@media(max-width: 1024px){
+	.hero .left img{
+		width: 350px;
+		margin-left: 100px;
+	}
+	.hero .right{
+		margin-left: 0px ;
+	}
+	section.blogs h3{
+		padding: 0 10rem;
+	}
+	section.project h3{
+		padding: 0 10rem;
+	}section{
+		/* padding: 0 10rem; */
+		margin: 0rem;
+	}section.about p{
+		padding: 0 10rem;
+		font-size: 1rem;
+	}section.about .socal{
+		/* align-items: center; */
+		margin-left: 10rem;
+	}
 }
